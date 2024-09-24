@@ -1,0 +1,78 @@
+:root {
+  --cal-light-color: rgb(255, 255, 255);
+  --cal-med-light-color: rgb(217, 217, 217);
+  --cal-med-dark-color: rgba(127, 210, 255, 1);
+  --cal-dark-color: rgba(44, 126, 170, 1);
+  --cal-black-color: rgba(33, 33, 33, 1);
+  --cal-evt-color: rgba(0, 153, 153, 0.4);
+  --cal-active-color: rgba(127, 210, 255, 1);
+  --cal-button-bg-color: rgba(184, 230, 255, 1);
+}
+
+.cjs-dayCol {
+  background-color: var(--cal-light-color);
+}
+
+.cjs-dayHeader {
+  background-color: var(--cal-light-color);
+  color: var(--cal-dark-color);
+}
+
+.cjs-active {
+  background: var(--cal-active-color);
+  border-color: var(--cal-light-color);
+}
+
+.cjs-blankday {
+  background-color: var(--cal-med-light-color);
+}
+
+.cjs-lastLink {
+  background: var(--cal-button-bg-color);
+  color: var(--cal-dark-color);
+  border: 1px solid var(--cal-med-dark-color);
+}
+
+.cjs-nextLink {
+  background: var(--cal-button-bg-color);
+  color: var(--cal-dark-color);
+  border: 1px solid var(--cal-med-dark-color);
+}
+
+.cjs-calDay:hover {
+  background: var(--cal-med-dark-color);
+}
+
+.cjs-right {
+  border-right: 1px solid var(--cal-med-dark-color);
+}
+
+.cjs-top {
+  border-top: 1px solid var(--cal-med-dark-color);
+}
+
+.cjs-left {
+  border-left: 1px solid var(--cal-med-dark-color);
+}
+
+.cjs-bottom {
+  border-bottom: 1px solid var(--cal-med-dark-color);
+}
+
+.cjs-otherEvents {
+  background: var(--cal-med-dark-color);
+  color: var(--cal-black-color);
+}
+
+.cjs-calHeader {
+  color: var(--cal-dark-color);
+}
+
+.cjs-dayContent {
+  color: var(--cal-dark-color);
+}
+
+.cjs-calEvent {
+  background: var(--cal-evt-color);
+  color: var(--cal-black-color);
+}
